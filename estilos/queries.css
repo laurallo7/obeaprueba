@@ -30,8 +30,8 @@
   
 }
 
-ul{
-  visibility: hidden
+#menu{
+  visibility: hidden;
 }
 
 .es {display: block;}
@@ -90,7 +90,7 @@ ul{
 
 
 
-input:checked ~ ul{ 
+input:checked ~ #menu{ 
   visibility: visible; 
 }
 
