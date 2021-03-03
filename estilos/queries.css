@@ -31,7 +31,7 @@
 }
 
 ul{
-  right: -100%
+  visibility: hidden
 }
 
 .es {display: block;}
@@ -91,7 +91,7 @@ ul{
 
 
 input:checked ~ ul{ 
-  right:0; 
+  visibility: visible; 
 }
 
 /*PARA CREAR EL BOTÓN*/
